@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Container styling for each section */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header styling */
+h1, h2 {
+  color: #2c3e50;
+}
+
+p {
+  color: #34495e;
+}
+
+/* Button styling */
+button {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3498db;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border-color: #2980b9;
+}
+
+/* Page specific styles */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px 0;
+  font-size: 1.1em;
+}
+
+/* Footer styles (optional) */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
